@@ -207,7 +207,7 @@ export default function Hero() {
             ].map(({ src, alt, span = '', aspect }) => (
               <a
                 key={src}
-                href="/#"
+                onClick={(e) => e.preventDefault()}
                 className={`relative group ${span}`}
               >
                 <Image
@@ -222,7 +222,7 @@ export default function Hero() {
                   className="absolute inset-0 bg-black/40 rounded-lg flex items-center justify-center 
                              opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="text-white text-lg font-semibold">View Project</span>
+                  {/* <span className="text-white text-lg font-semibold">View Project</span> */}
                 </div>
               </a>
             ))}
