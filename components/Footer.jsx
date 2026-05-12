@@ -30,7 +30,7 @@ function Footer() {
             <ul className="flex gap-6 text-sm flex-wrap">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="hover:text-white transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                 >
                   Services
