@@ -44,7 +44,7 @@ function About() {
           <div className="relative w-full overflow-hidden rounded-xl">
             <img
               src="/images/photo.jpg"
-              alt="Portrait of Mark Dazey"
+              alt="Portrait of Mark Johnson"
               className="rounded-xl w-full object-cover"
               loading="lazy"
               decoding="async"
@@ -61,7 +61,7 @@ function About() {
             </span>
           </div>
           <h2 id="about-heading" className="mt-6 text-2xl font-semibold">
-            Hello, I am <span className="text-gray-300">Mark Dazey</span>
+            Hello, I am <span className="text-gray-300">Mark Johnson</span>
           </h2>
           <p className="text-gray-400 mt-2">
             Senior Software Engineer Based in CA, USA.
@@ -83,7 +83,7 @@ function About() {
           aria-label="About Arjun Mehra"
         >
           <p className="mb-4 text-gray-300">
-            I'm Mark Dazey, a dedicated Web & Mobile Developer based in the
+            I'm Mark Johnson, a dedicated Web & Mobile Developer based in the
             San Jose of California, US. I specialize in software development
             with seamless technical execution to craft exceptional digital
             experiences.

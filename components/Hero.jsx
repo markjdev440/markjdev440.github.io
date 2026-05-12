@@ -50,7 +50,7 @@ export default function Hero() {
           className="flex items-center gap-2 font-semibold text-lg"
         >
           <h2 className="text-md md:text-2xl font-light tracking-tight leading-tight">
-            Mark D
+            Mark J
           </h2>
         </Link>
 
@@ -94,7 +94,7 @@ export default function Hero() {
                 className="flex items-center gap-2 font-semibold text-lg"
               >
                 <h2 className="text-md md:text-2xl font-light tracking-tight leading-tight">
-                  Mark Dazey
+                  Mark Johnson
                 </h2>
               </Link>
               <button
@@ -137,7 +137,7 @@ export default function Hero() {
             </div>
 
             <h1 className="text-5xl md:text-6xl font-light tracking-tight leading-tight">
-              Mark <span className="font-semibold text-white">Dazey</span>
+              Mark <span className="font-semibold text-white">Johnson</span>
               <span className="inline-block ml-2 rounded-full bg-white/10 p-2">
                 <ArrowUpRight className="w-4 h-4" aria-hidden="true" />
               </span>
