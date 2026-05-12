@@ -157,7 +157,7 @@ export default function Hero() {
                 See All Projects
               </Link>
               <button
-                href="mailto:cj105026@gmail.com"
+                href="#about"
                 className="bg-gradient-to-r from-neutral-800 to-black px-6 py-3 
                            border border-gray-700 rounded-full font-medium 
                            hover:opacity-90 transition text-sm"
