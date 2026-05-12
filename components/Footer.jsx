@@ -21,7 +21,7 @@ function Footer() {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <h2 className="text-md md:text-2xl font-light tracking-tight leading-tight">
-              Mark <span className="font-semibold text-white">D</span>
+              Mark <span className="font-semibold text-white">J</span>
             </h2>
           </div>
 
@@ -30,7 +30,7 @@ function Footer() {
             <ul className="flex gap-6 text-sm flex-wrap">
               <li>
                 <a
-                  href="/#"
+                  href="#"
                   className="hover:text-white transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                 >
                   Services
@@ -38,7 +38,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="#projects"
                   className="hover:text-white transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                 >
                   Projects
@@ -46,7 +46,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="#about"
                   className="hover:text-white transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                 >
                   Profile
@@ -54,15 +54,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="/#"
-                  className="hover:text-white transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
-                >
-                  Reviews
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/#"
+                  href="mailto:cj105026@gmail.com"
                   className="hover:text-white transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                 >
                   Contact

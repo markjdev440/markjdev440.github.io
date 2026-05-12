@@ -56,7 +56,7 @@ export default function Hero() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-6 text-lg text-gray-400" aria-label="Primary navigation">
-          {['Services', 'Projects', 'Testimonials', 'Contact'].map((item) => (
+          {['Services', 'Projects', 'About'].map((item) => (
             <Link
               key={item}
               href={`#${item.toLowerCase()}`}
@@ -109,7 +109,7 @@ export default function Hero() {
 
             {/* Links */}
             <nav className="flex flex-col gap-6 mt-12" aria-label="Mobile navigation">
-              {['Services', 'Projects', 'Testimonials', 'Contact'].map((item) => (
+              {['Services', 'Projects', 'About'].map((item) => (
                 <Link
                   key={item}
                   href={`#${item.toLowerCase()}`}
@@ -160,6 +160,7 @@ export default function Hero() {
                 className="bg-gradient-to-r from-neutral-800 to-black px-6 py-3 
                            border border-gray-700 rounded-full font-medium 
                            hover:opacity-90 transition text-sm"
+                           href="mailto:cj105026@gmail.com"
               >
                 Contact Now
               </button>

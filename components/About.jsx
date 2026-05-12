@@ -20,18 +20,18 @@ function About() {
   ];
 
   const experiences = [
-    ["Web Developer", "NovaWorks Agency", "2012"],
-    ["Software Engineer", "GreenLeaf Co", "2016"],
-    ["Full Stack Developer", "UrbanFit Studio", "2020"],
-    ["Senior Web Developer", "PixelCraft Studios", "2023"],
-    ["Lead Developer", "IndieLabs Collective", "2023"],
-    ["Senior Software Engineer", "VistaWorks", "2024"],
-    ["Senior Software Engineer", "SolarTech Solutions", "2024"],
+    ["Software Engineer", "Classmates", "2012"],
+    ["Web Developer", "Starbucks", "2013"],
+    ["Senior Web Developer", "Umpqua Bank", "2014"],
+    ["Senior Web Developer", "Microsoft", "2016"],
+    ["Senior Web Developer", "AT&T", "2018"],
+    ["Senior Frontend Engineer", "Nurocor, Inc", "2022"],
+    ["Senior Full Stack Engineer", "Jet City Web Development", "2023"],
   ];
 
   return (
     <section
-      id="profile"
+      id="about"
       className="bg-black text-white px-4 py-16"
       aria-labelledby="about-heading"
     >
@@ -64,7 +64,7 @@ function About() {
             Hello, I am <span className="text-gray-300">Mark Johnson</span>
           </h2>
           <p className="text-gray-400 mt-2">
-            Senior Software Engineer Based in CA, USA.
+            Senior Software Engineer Based in WA, USA.
           </p>
 
           {/* Connect Button */}
@@ -72,6 +72,7 @@ function About() {
             className="mt-6 bg-gradient-to-r from-neutral-800 to-black px-6 py-3 border border-gray-700 rounded-full font-medium hover:opacity-90 transition"
             aria-haspopup="dialog"
             aria-controls="contact-form"
+            href="mailto:cj105026@gmail.com"
           >
             Connect with me
           </button>
