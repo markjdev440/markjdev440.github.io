@@ -69,15 +69,13 @@ function About() {
           </p>
 
           {/* Connect Button */}
-          <button>
-            <a
-              className="mt-6 bg-gradient-to-r from-neutral-800 to-black px-6 py-3 border border-gray-700 rounded-full font-medium hover:opacity-90 transition"
-              aria-haspopup="dialog"
-              aria-controls="contact-form"
-              href="mailto:cj105026@gmail.com"
-            >
-              Connect with me
-            </a>
+          <button
+            className="mt-6 bg-gradient-to-r from-neutral-800 to-black px-6 py-3 border border-gray-700 rounded-full font-medium hover:opacity-90 transition"
+            aria-haspopup="dialog"
+            aria-controls="contact-form"
+            href="mailto:cj105026@gmail.com"
+          >
+            Connect with me
           </button>
         </article>
 
