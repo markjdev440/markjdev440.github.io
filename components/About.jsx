@@ -21,13 +21,13 @@ function About() {
   ];
 
   const experiences = [
-    ["Software Engineer", "Classmates", "2012"],
-    ["Web Developer", "Starbucks", "2013"],
-    ["Senior Web Developer", "Umpqua Bank", "2014"],
-    ["Senior Web Developer", "Microsoft", "2016"],
-    ["Senior Web Developer", "AT&T", "2018"],
-    ["Senior Frontend Engineer", "Nurocor, Inc", "2022"],
     ["Senior Full Stack Engineer", "Jet City Web Development", "2023"],
+    ["Senior Frontend Engineer", "Nurocor, Inc", "2022"],
+    ["Senior Web Developer", "AT&T", "2018"],
+    ["Senior Web Developer", "Microsoft", "2016"],
+    ["Senior Web Developer", "Umpqua Bank", "2014"],
+    ["Web Developer", "Starbucks", "2013"],
+    ["Software Engineer", "Classmates", "2012"],
   ];
 
   return (
