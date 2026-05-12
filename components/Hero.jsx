@@ -35,7 +35,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="bg-black text-white min-h-screen w-full">
+    <div id="services" className="bg-black text-white min-h-screen w-full">
       {/* ===== HEADER ===== */}
       <header
         className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 

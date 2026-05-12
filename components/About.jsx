@@ -1,4 +1,5 @@
 import { memo } from "react";
+import Link from 'next/link';
 
 /**
  * About Component
@@ -68,14 +69,14 @@ function About() {
           </p>
 
           {/* Connect Button */}
-          <button
+          <Link
             className="mt-6 bg-gradient-to-r from-neutral-800 to-black px-6 py-3 border border-gray-700 rounded-full font-medium hover:opacity-90 transition"
             aria-haspopup="dialog"
             aria-controls="contact-form"
             href="mailto:cj105026@gmail.com"
           >
             Connect with me
-          </button>
+          </Link>
         </article>
 
         {/* Right Section - Bio, Skills, Experience */}
