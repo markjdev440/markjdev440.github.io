@@ -88,7 +88,7 @@ function About() {
         >
           <p className="mb-4 text-gray-300">
             I'm Mark Johnson, a dedicated Web & Mobile Developer based in the
-            San Jose of California, US. I specialize in software development
+            WA, US. I specialize in software development
             with seamless technical execution to craft exceptional digital
             experiences.
           </p>
